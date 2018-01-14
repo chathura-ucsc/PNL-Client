@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Add Passengers";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<div class="form-group">
+    <label for="title">Title</label>
+    <select class="form-control" id="title" required>
+        <option>Please Select</option>
+        <option value="MR">MR</option>
+        <option value="MRS">MRS</option>
+    </select>
+</div>
+<div class="form-group">
+    <label for="firstName">First Name</label>
+    <input type="text" class="form-control" id="firstName" required>
+</div>
+<div class="form-group">
+    <label for="lastName">Last Name</label>
+    <input type="text" class="form-control" id="lastName" required>
+</div>
+
+<div class="form-group">
+    <label for="recordLocator">Record Locator</label>
+    <input type="text" class="form-control" id="recordLocator" required>
+</div>
+
+<button class="btn btn-primary" onclick="Post.AddPassenger();return false;">Add Passenger</button>
+
+<div class="row">
+    <div class="result col-sm-5" id="resultMessage" style="display:none;"></div>
+</div>

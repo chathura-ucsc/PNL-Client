@@ -1,0 +1,20 @@
+﻿.result
+{
+    margin-top: 30px;
+}
+
+.error
+{
+    background: #ff4d4d;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.success
+{
+    background: #66ff99;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
