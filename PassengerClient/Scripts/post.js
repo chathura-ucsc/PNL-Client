@@ -29,7 +29,6 @@ Post = {
         }
         //if there is not any error, we continue
         // we call the post api method to add the record
-        debugger;
         $.ajax({
             url: "http://localhost:52945/api/Passenger",
             data: JSON.stringify(collectedValues),

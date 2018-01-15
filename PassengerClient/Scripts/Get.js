@@ -61,13 +61,12 @@
             method: "get",
             dataType: "json"
         }).done(function (data) {
-
-            debugger;
+            
             Get.DisplayJsonData(data);
 
         }).fail(function (xhr, status, ex) {
 
-            Common.AddMessage(ex.Message, "error");
+            Common.AddMessage(ex.Message, "error")
         });
     },
 
